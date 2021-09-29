@@ -48,7 +48,7 @@ const styles = StyleSheet.create({
     padding: 16,
     borderBottomColor: colors.zircon,
     borderBottomWidth: 1,
-    paddingLeft: Platform.OS === 'ios' ? 16 : 0,
+    paddingLeft: 16,
   },
   row: {
     flexDirection: 'row',
